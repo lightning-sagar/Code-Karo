@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Online Coding SaaS Platform(Code-Karo-Rose)
 
-## Getting Started
+Welcome to the Online Coding SaaS Platform built with **Next.js**! This platform allows users to write, run, and share code snippets seamlessly. Collaborate with others by sharing your snippets and receive replies from fellow developers.
 
-First, run the development server:
+![image](https://github.com/user-attachments/assets/c35de2cf-fc86-4079-bc6c-e713709aa550)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Key Features
+
+1. **Write and Run Code:**
+   - Free support for JavaScript.
+   - Paid support for other programming languages ($39 subscription required).
+
+2. **Share Snippets:**
+   - Share your code snippets with others in the community.
+   - Receive replies and collaborate on your code.
+
+3. **User-Friendly Interface:**
+   - Built using modern technologies with a focus on performance and user experience.
+
+---
+
+## File Structure
+
+This project is based on the GitHub repository: [Code-Karo](https://github.com/lightning-sagar/Code-Karo).
+
+Below is the structure of the project:
+
+```
+Code-Karo/
+├── components/
+│   ├── Editor.js            # Code editor component.
+│   ├── Navbar.js            # Navigation bar.
+│   ├── Footer.js            # Footer component.
+│   └── SnippetCard.js       # Snippet display component.
+├── pages/
+│   ├── index.js             # Home page.
+│   ├── snippets/[id].js     # Snippet details page.
+│   ├── api/
+│   │   ├── snippets.js      # API for handling snippet data.
+│   │   └── run-code.js      # API for executing code.
+├── public/
+│   ├── logo.png             # Platform logo.
+│   └── styles.css           # Additional global styles.
+├── styles/
+│   ├── globals.css          # Global CSS styles.
+│   ├── Editor.module.css    # Editor-specific styles.
+├── utils/
+│   └── apiClient.js         # Helper functions for API calls.
+├── .env                     # Environment variables.
+├── package.json             # Project dependencies and scripts.
+├── README.md                # Project documentation.
+└── next.config.js           # Next.js configuration.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation and Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
+- Node.js (v14 or above)
+- npm or yarn
 
-## Learn More
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lightning-sagar/Code-Karo.git
+   cd Code-Karo
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Configure environment variables:
+   - Create a `.env` file in the root directory.
+   - Add the required variables (e.g., API keys, database URIs).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Deploy on Vercel
+5. Access the application at `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Pricing
+
+- **Free Plan:** Run JavaScript code at no cost.
+- **Premium Plan:** $39 subscription to unlock support for additional languages.
+
+---
+
+## Contribution
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes and push to your fork.
+4. Submit a pull request.
+
+---
+
+## Contact
+
+For any queries or support, feel free to reach out:
+- Email: lightningsagar0@gmail.com
+- GitHub: [Code-Karo](https://github.com/lightning-sagar/Code-Karo)
+
+---
+
+Enjoy coding with the Online Coding SaaS Platform!
