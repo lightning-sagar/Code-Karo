@@ -110,6 +110,11 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
+## Tutorial Reference
+
+I learned how to build this platform from a tutorial video. You can watch it here: Build a Coding SaaS with Next.js:"https://www.youtube.com/watch?v=fGkRQgf6Scw&t=4166s"
+
+---
 ## Contact
 
 For any queries or support, feel free to reach out:
